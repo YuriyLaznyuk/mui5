@@ -1,5 +1,5 @@
 {
-  "name": "level99",
+  "name": "mui5",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,13 +10,14 @@
     "lint": "eslint src/**/*.{ts,tsx} --quiet --fix"
   },
   "keywords": [],
-  "author": "yura",
+  "author": "Yura",
   "license": "ISC",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
     "@mui/icons-material": "^5.3.1",
     "@mui/material": "^5.4.0",
+    "@mui/x-data-grid": "^5.5.0",
     "@types/react-redux": "^7.1.22",
     "css-loader": "^6.5.1",
     "file-loader": "^6.2.0",
