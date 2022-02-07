@@ -3,6 +3,9 @@ import React from 'react';
 import {Button, Grid, Typography, useMediaQuery} from '@mui/material';
 import product1 from '../../assets/images/products/f1.png';
 import product2 from '../../assets/images/products/f2.png';
+import DesktopCategories from './DesktopCategories';
+import MobileCategory from './MobileCategory';
+import ProductsList from './ProductsList';
 
 const ProductContainer = () => {
 	const matches = useMediaQuery('(min-width:600px)');
@@ -74,6 +77,14 @@ const ProductContainer = () => {
 					</Box>
 				</Grid>
 			</Grid>
+			{/*DesktopCategories*/}
+			<Box sx={{display: {xs: 'none', lg: 'block'}}}>
+				<DesktopCategories />
+			</Box>
+			<Box sx={{display: {xs: 'block', lg: 'none'}}}>
+				<MobileCategory />
+			</Box>
+			<ProductsList />
 		</Box>
 	);
 };
