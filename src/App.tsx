@@ -13,6 +13,7 @@ const App = () => {
 			<Header />
 			<ProductContainer />
 			{/*<DataGridMui />*/}
+			{/*<GridMui />*/}
 		</>
 	);
 };
